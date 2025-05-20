@@ -1,3 +1,6 @@
+:root{
+    --border: 1px solid rgb(24, 12, 64);
+}
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -16,7 +19,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -32,7 +35,7 @@ main {
 aside {
     width: 15em;
     margin: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: var(--border);
     padding: 1em;
     background-color: #b49595;
     color: rgb(9, 45, 112)
