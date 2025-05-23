@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: auto;
+    border: solid rgb(0 0 0 / 10px);
+
 }
 
 :root {
@@ -28,7 +31,7 @@ main img {
     float: right;
     width: 150px;
     height: auto;
-    border: var(--border);
+    border: 1.5px solid cornflowerblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -43,12 +46,13 @@ main {
 
 aside {
     width: 15em;
+    position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 545px;
-    left: 85px;
+    top: 25px;
+    left: 20px;
 }
 
 aside img {
@@ -65,7 +69,7 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
+    border: 1px solid rgb(0 0 0 / 0.1);
     padding: 1rem;
     background-color: rgb(167, 140, 240);
     color: rgb(13, 1, 25);
