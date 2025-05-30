@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     width: auto;
-    border: solid rgb(0 0 0 / 10px);
+    border: solid rgb(0 0 0 /10px);
 
 }
 
@@ -11,19 +11,36 @@
     --border: 1px solid rgb(24, 12, 64);
 }
 
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: block;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+
 }
 
 h1 {
     color: darkblue;
+    border-bottom: solid white;
 }
 
 main img {
@@ -41,12 +58,15 @@ p {
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside {
     width: 15em;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
@@ -73,4 +93,15 @@ footer {
     padding: 1rem;
     background-color: rgb(167, 140, 240);
     color: rgb(13, 1, 25);
+}
+
+header,
+.grid footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
