@@ -124,11 +124,8 @@ article {
     box-shadow: 0 0 50px var(--accent2-color);
 }
 
-footer {
-    display: flex;
-    align-items: center;
-}
-.socialmedia{
-    display: flex;
-    align-items: flex-end;
+footer{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    place-items: center;
 }
