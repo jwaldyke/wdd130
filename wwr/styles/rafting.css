@@ -36,7 +36,11 @@ footer {
     margin: 0 auto;
 }
 
-h1,
+h1{
+    font-family: var(--heading-font);
+    color:rgb(247, 247, 247)
+}
+
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
