@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <h1>WDD 130 | Jennifer Waldyke | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2"><label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <!-- could write above code as <label>Full Name: <input type="text" name="fullname"></label> -->
+                <div class="form-item2"><label for="useremail">User Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                <!-- form element will go here -->
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1"><label for="browser">What is your favorite browser? </label>
+                    <select id="browser" name="browser">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Edge">Edge</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item column1"><label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                    placeholder="Rexburg Idaho, Lakewood Colorado, Alberta, Canada"></textarea>
+                <!-- form element will go here -->
+            </fieldset>
+            <button type="button">Submit Poll</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 | HTML Form - User Poll Assignment | Jennifer Waldyke</p>
+    </footer>
+</body>
+
+</html>

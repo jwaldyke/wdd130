@@ -1,0 +1,112 @@
+.delius-regular {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Delius", cursive;
+    font-size: medium;
+    color: rgb(100, 4, 4);
+    background: rgb(206, 221, 243);
+}
+
+header {
+    width: auto;
+    display: grid;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px rgb(0, 0, 0 / 0.2);
+    border-radius: 0.75em;
+    background-color: rgb(247, 233, 214);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 0;
+    padding: .5rem;
+    border: .1em solid rgb(0, 0, 0);
+}
+
+legend {
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: rgb(128, 29, 29);
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 1rem;
+    font-size: large;
+}
+
+input[type="checkbox"] {
+    width: 100px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    width: 10em;
+    height: 5ex;
+    background-color: rgb(252, 252, 252);
+    border: 2px solid rgb(8, 239, 46);
+    border-radius: 15px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0)
+}
+
+button:hover {
+    background-color: rgb(8, 239, 46);
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: end;
+    font-size: small;
+    border-top: 1px solid #000000;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0;
+}
