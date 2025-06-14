@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact | Wyatt White Water Rafting Co.</title>
     <meta name="description" content="White Water Rafting in Colorado Contact Page ">
     <meta name="author" content="Jennifer Waldyke">
     <link rel="styles" href="wwr/styles.css">
@@ -27,7 +27,7 @@
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Information</a></li>
             </ul>
-            <h1>Wyatt White Water Rafting</h1>
+            <h1>Wyatt White Water Rafting Co.</h1>
         </nav>
     </header>
     <main>
@@ -37,60 +37,59 @@
         </section>
 
         <div class="address">
-            <p>Address: 520 County Road 54, Salida, CO 81201</p>
-            <!-- <p>Salida, CO 81201</p> -->
-            <p>Email: contact-us@wwwr.com</p>
-            <p>Phone:1-719 555-5309</p>
-            <div class="map">
+            <p id="p1">Address: 520 County Road 54, Salida, CO 81201</p>
+            <aside class="map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8580.994052154147!2d-105.91754713963098!3d38.493694620139564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1749342393950!5m2!1sen!2sus"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8580.994052154147!2d-105.91754713963098!3d38.493694620139564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1749342393950!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </aside>
+            <p id="p2">Email: contact-us@wwwr.com</p>
+            <p id="p3">Phone:1-719 555-5309</p>
         </div>
-        <section class="employee"></section>
-        <section class="Wyatt">
-            <figure><img src="images/Wyatt.jpg" alt="Co-Founder & CEO" width="100"></figure>
-            <figcaption>Wyatt Waldyke - Co-Founder & CEO</figcaption>
+        <section class="employee">
+            <section class="Wyatt">
+                <figure><img src="images/Wyatt.jpg" alt="Co-Founder & CEO" width="100"></figure>
+                <figcaption>Wyatt Waldyke - Co-Founder & CEO</figcaption>
+            </section>
+            <section class="Matt">
+                <figure><img src="images/Matt.jpg" alt="Lead Raft Guide" width="100"></figure>
+                <figcaption>Matt Waldyke - Lead Raft Guide</figcaption>
+            </section>
+            <section class="Jennifer">
+                <figure><img src="images/Jenn.jpg" alt="Co-Founder & Customer Service" width="100"></figure>
+                <figcaption>Jennifer Waldyke - Co-Founder & Customer Service</figcaption></section>
         </section>
+            <form>
+                <fieldset>
+                    <legend>Message Us</legend>
+                    <div class="form-item 1"><label>Full Name: <input type="text" name="fullname"></label></div>
+                    <div class="form-item 2"><label>Email: <input type="text" name="email"></label></div>
 
-        <section class="Matt">
-            <figure><img src="images/Matt.jpg" alt="Lead Raft Guide" width="100"></figure>
-            <figcaption>Matt Waldyke - Lead Raft Guide</figcaption>
-        </section>
-        <section class="Jennifer">
-            <figure><img src="images/Jenn.jpg" alt="Co-Founder & Customer Service" width="100"></figure>
-            <figcaption>Jennifer Waldyke - Co-Founder & Customer Service</figcaption>
-        </section>
-        <form>
-            <fieldset>
-                <legend>Message Us</legend>
-                <div class="form-item 1"><label>Full Name: <input type="text" name="fullname"></label></div>
-                <div class="form-item 2"><label>Email: <input type="text" name="email"></label></div>
-
-                <div class="purpose"><label>Purpose of Inquiry:</label>
-                    <label for="general">General Inquiry</label><br>
-                    <input type="radio" id="general" name="purpose" value="general">
-                    <label for="reservation">Reservation Question</label><br>
-                    <input type="radio" id="reservation" name="purpose" value="reservation">
-                    <label for="website">Website Suggestion</label><br>
-                    <input type="radio" id="website" name="purpose" value="website">
+                    <div class="purpose"><label>Purpose of Inquiry:</label>
+                        <label for="general">General Inquiry</label><br>
+                        <input checked type="radio" id="general" name="purpose" value="general">
+                        <label for="reservation">Reservation Question</label><br>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="website">Website Suggestion</label><br>
+                        <input type="radio" id="website" name="purpose" value="website">
 
 
-                    <label for="message">Comments</label>
-                    <textarea name="message" rows="20" cols="100"></textarea>
-                    <div class="newsletter"><label>Please subscript me to the monthly newsletter</label>
-                        <input type="checkbox" name="newsletter"></label>
+                        <label for="message">Comments</label>
+                        <textarea name="message" placeholder="Comments" rows="20" cols="100"></textarea>
+                        <div class="newsletter"><label>Please subscript me to the monthly newsletter</label>
+                            <input type="checkbox" name="newsletter" value="newsletter">
+                        </div>
                     </div>
-                </div>
-            </fieldset>
-            <button type="button">Submit</button>
-        </form>
+                </fieldset>
+                <button type="button">Send</button>
+            </form>
 
     </main>
     <footer class="footer1">
         <section class="footend">
-            <p>© 2025 Wyatt White Water Rafting Jennifer Waldyke</p>
-            <a href="https://app.moqups.com/unsaved/f00b18ab/edit/page/ad64222d5">Contact Us Wireframe</a>
+            <p>© 2025 Wyatt White Water Rafting Co. Jennifer Waldyke</p>
         </section>
         <nav class="socialmedia">
             <a href="https://www.facebook.com">

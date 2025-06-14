@@ -107,6 +107,6 @@ footer {
 }
 
 .column2 {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3.5fr;
     margin: 1rem 0;
 }
